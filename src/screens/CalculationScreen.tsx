@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 
 import {Operations} from '../interfaces';
-import {CleanButton, NumberButton, OperationButton} from '../components';
+import {NumberButton} from '../components/NumberButton';
+import {OperationButton} from '../components/OperationButton';
+import {CleanButton} from '../components/CleanButton';
 // TouchableOpacity предназначен для создания нажимаемой области
 
 export const CalculationScreen = ({navigation}: any) => {
